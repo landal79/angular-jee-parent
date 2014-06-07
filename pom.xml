@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>jee6-parent</artifactId>
+		<groupId>org.landal</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.landal.angular-jee</groupId>
+	<artifactId>angular-jee-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- JBoss dependency versions -->
+		<version.jboss.maven.plugin>7.4.Final</version.jboss.maven.plugin>
+	</properties>
+
+	<modules>
+		<module>angular-rest-crud</module>
+		<module>angular-rest-fileupload</module>
+	</modules>
+
+</project>

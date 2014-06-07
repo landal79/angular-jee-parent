@@ -1,0 +1,22 @@
+<div class="well">	
+	<form class="form-horizontal" role="form">
+		<div class="form-group">
+			<label for="name" class="col-sm-2 control-label">Name</label>
+			<div class="col-sm-10">
+				<input ng-model="wine.name" type="text" class="form-control" id="name" placeholder="Enter wine name ...">
+			</div>
+		</div>		
+		<div class="form-group">
+			<label for="degree" class="col-sm-2 control-label">Degree</label>
+			<div class="col-sm-10">
+				<input ng-model="wine.degree" type="text" class="form-control" id="degree" placeholder="Enter wine degrees ...">
+			</div>
+		</div>
+		<hr/>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-default" ng-click="save()">Save</button>
+			</div>
+		</div>
+	</form>
+</div>
